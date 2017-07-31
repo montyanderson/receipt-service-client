@@ -1,10 +1,4 @@
-# receipt-service-client
-
-A PHP client wrapper for the [receipt-service](https://github.com/montyanderson/receipt-service).
-
-## Usage
-
-``` php
+<?php
 require("receipt-service.php");
 
 $receipt = new ReceiptService("http://192.168.1.191:8080");
@@ -26,4 +20,3 @@ $receipt->order(array(
 		)
 	)
 ));
-```
